@@ -1,0 +1,37 @@
+input{
+	width:280px;
+	height:40px;
+	border-radius:2px;
+	border:1px solid #96a5b4;
+	margin-left:30px;
+	
+}
+body{
+	width:200px;
+    height:450px;
+    float:right;
+    line-height:70px;
+	padding-top:30px;
+    padding-bottom:30px;
+	padding-right:200px;
+    padding-left:40px;
+	margin-top:80px;
+	margin-right:200px;
+	border:1px solid #96a5b4;
+	border-radius:4px;
+}
+.loginbtn{
+	font-size:20px;
+	color: #FFFFFF;
+	border-radius: 4px;
+	text-decoration: none;
+	background: #5a98de;
+}
+a{
+	margin-left:30px;
+	color:#5a98de;
+	text-decoration:none;
+}
+html{
+	background-image:url(../picture/login_bk.jpg)
+}

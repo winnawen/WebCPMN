@@ -1,0 +1,126 @@
+
+异常时间：2016-05-29 00:20:17,823 [191] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/newsEdit.aspx
+异常信息:文件“/admin/newsEdit.aspx”不存在。<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">文件“/admin/newsEdit.aspx”不存在。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
+
+异常时间：2016-05-29 00:21:55,772 [191] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/login.aspx
+异常信息:文件“/admin/login.aspx”不存在。<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">文件“/admin/login.aspx”不存在。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
+
+异常时间：2016-05-29 00:49:50,576 [190] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/html/Login.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.html_login_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_o1mptbhl.4.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-05-29 00:51:36,572 [187] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/html/Login.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.html_login_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_krokw2j5.2.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-05-29 00:54:09,895 [190] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/html/sign.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.html_sign_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_1zxmck5e.2.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-05-29 08:52:13,539 [6] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/login.aspx
+异常信息:文件“/admin/login.aspx”不存在。<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">文件“/admin/login.aspx”不存在。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
+
+异常时间：2016-05-29 08:52:46,127 [8] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/html/login.aspx
+异常信息:文件“/admin/html/login.aspx”不存在。<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">文件“/admin/html/login.aspx”不存在。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
+
+异常时间：2016-05-29 09:16:10,498 [21] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.admin_index_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_ihjn4ps2.2.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-05-29 09:16:28,645 [24] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.admin_index_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_n02yq5lk.0.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-05-29 10:23:26,869 [9] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/QueryInfo.aspx
+异常信息:h:\worktemp\WebCPMN\admin\QueryInfo.aspx(16): error CS1061: “ASP.admin_queryinfo_aspx”不包含“Grid2_PageIndexChange”的定义，并且找不到可接受类型为“ASP.admin_queryinfo_aspx”的第一个参数的扩展方法“Grid2_PageIndexChange”(是否缺少 using 指令或程序集引用?)<br>【异常类型】：HttpCompileException <br>【异常信息】：<strong style="color:red">h:\worktemp\WebCPMN\admin\QueryInfo.aspx(16): error CS1061: “ASP.admin_queryinfo_aspx”不包含“Grid2_PageIndexChange”的定义，并且找不到可接受类型为“ASP.admin_queryinfo_aspx”的第一个参数的扩展方法“Grid2_PageIndexChange”(是否缺少 using 指令或程序集引用?) </strong><br>【堆栈调用】：<br>   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.Compilation.BuildManager<br>【出错的方法名】：CompileWebFile<br/><br/> 
+ 
+
+异常时间：2016-05-29 16:47:40,722 [12] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/login.aspx
+异常信息:文件“/admin/login.aspx”不存在。<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">文件“/admin/login.aspx”不存在。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
+
+异常时间：2016-05-29 16:54:09,272 [12] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/index.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.admin_index_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_jwey0ep1.12.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-05-29 16:55:37,265 [5] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/login.aspx
+异常信息:文件“/admin/login.aspx”不存在。<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">文件“/admin/login.aspx”不存在。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   在 System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
+
+异常时间：2016-05-29 17:13:20,655 [24] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/html/Login.aspx
+异常信息:引发类型为“System.Web.HttpUnhandledException”的异常。<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">引发类型为“System.Web.HttpUnhandledException”的异常。 </strong><br>【堆栈调用】：<br>   在 System.Web.UI.Page.HandleError(Exception e)<br>   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   在 System.Web.UI.Page.ProcessRequest()<br>   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   在 System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   在 ASP.html_login_aspx.ProcessRequest(HttpContext context) <strong style="color:red">位置</strong> c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_p300o1b2.0.cs:<strong style="color:red">行号</strong> 0<br>   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 

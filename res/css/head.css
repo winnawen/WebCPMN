@@ -1,0 +1,22 @@
+﻿#header table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+    #header table td {
+        padding: 0;
+    }
+#header .title{
+    margin-left:20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer {
+    vertical-align:middle;
+    text-align:center;
+}

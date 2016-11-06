@@ -1,0 +1,9 @@
+
+异常时间：2016-09-26 23:20:11,877 [9] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/login.aspx
+异常信息:The file '/admin/login.aspx' does not exist.<br>【异常类型】：HttpException <br>【异常信息】：<strong style="color:red">The file '/admin/login.aspx' does not exist. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Util<br>【出错的方法名】：CheckVirtualFileExists<br/><br/> 
+ 
