@@ -14,6 +14,7 @@ public partial class admin_AdminManager : cAdmin
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        btnAdd.OnClientClick = Window1.GetShowReference("Addadmin.aspx", "新增管理员");
         BindGrid(0);
     }
 
@@ -22,7 +23,7 @@ public partial class admin_AdminManager : cAdmin
         CommonHelper com = new CommonHelper();
         DataTable dt = new DataTable();
         StringBuilder sb = new StringBuilder();
-        sb.Append("u_id is not null");
+        sb.Append("u_id is not null and u_type=1");
         try
         {
             GCGrid.RecordCount = com.getDataCount("web_usr", sb.ToString(), DB_JOB);

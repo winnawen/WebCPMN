@@ -54,7 +54,7 @@
             </Items>
         </f:Panel>
 
-        <f:Panel ID="Panel2" runat="server" Width="850px" Height="350px" ShowBorder="True" EnableCollapse="true"
+       <%-- <f:Panel ID="Panel2" runat="server" Width="850px" Height="350px" ShowBorder="True" EnableCollapse="true"
             Layout="VBox" BodyPadding="5px" BoxConfigChildMargin="0 0 5 0" ShowHeader="true" Title="停车信息查询">
             <Items>
                 <f:SimpleForm ID="SimpleForm3" CssClass="mysimpleform" runat="server" ShowBorder="false" EnableCollapse="true"
@@ -93,7 +93,7 @@
                     </Items>
                 </f:Panel>
             </Items>
-        </f:Panel>
+        </f:Panel>--%>
 
         <f:Panel ID="Panel3" runat="server" Width="850px" Height="350px" ShowBorder="True" EnableCollapse="true"
             Layout="VBox" BodyPadding="5px" BoxConfigChildMargin="0 0 5 0" ShowHeader="true" Title="投诉信息查询">

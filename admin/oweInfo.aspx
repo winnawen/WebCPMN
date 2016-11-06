@@ -24,7 +24,8 @@
                     <Columns>
                         <f:RowNumberField TextAlign="Center" HeaderText="序号" Width="87px"></f:RowNumberField>
                         <f:BoundField DataField="owe_owner" HeaderText="业主名" TextAlign="Center" Width="223px"></f:BoundField>
-                        <f:BoundField DataField="owe_time" HeaderText="时间" TextAlign="Center" Width="237px"></f:BoundField>
+                        <f:BoundField DataField="owe_stime" HeaderText="开始时间" TextAlign="Center" Width="237px"></f:BoundField>
+                        <f:BoundField DataField="owe_etime" HeaderText="结束时间" TextAlign="Center" Width="237px"></f:BoundField>
                         <f:BoundField DataField="owe_phone" HeaderText="手机" TextAlign="Center" Width="237px"></f:BoundField>
                         <f:BoundField DataField="owe_address" HeaderText="住址" TextAlign="Center" Width="716px"></f:BoundField>
                         <f:BoundField DataField="owe_price" HeaderText="费用（水费、电费）" TextAlign="Center" Width="438px"></f:BoundField>

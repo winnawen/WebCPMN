@@ -25,12 +25,12 @@ public partial class admin_parkEdit : cAdmin
             new SqlParameter("@owner",txOwner.Text.ToString()),
             new SqlParameter("@phone",txphone.Text.ToString()),
             new SqlParameter("@CPH",txcp.Text.ToString()),
-            new SqlParameter("@idcard",txidcard.Text.ToString()),
+            //new SqlParameter("@idcard",txidcard.Text.ToString()),
             new SqlParameter("@cwid",txcwid.Text.ToString()),
             new SqlParameter("@time",otime.Text.ToString()),
 
         };
-        string strsql = "insert into web_park values(@owner,@phone,@CPH,@idcard,@cwid,@time)";
+        string strsql = "insert into web_park values(@owner,@phone,@CPH,@cwid,@time)";
         if (SqlHelper.ExecuteNonQuery(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, strsql, paras) > 0)
         {
             Alert.Show("添加成功");

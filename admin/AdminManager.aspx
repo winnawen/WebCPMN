@@ -11,7 +11,14 @@
     <form id="form1" runat="server">
         <f:PageManager ID="PageManager1" runat="server" AutoSizePanelID="Panel1"></f:PageManager>
         <f:Panel ID="Panel1" runat="server" ShowBorder="true" BodyPadding="5px" Layout="Fit" ShowHeader="false">
-
+            <Toolbars>
+                <f:Toolbar ID="topToolbar" runat="server" Position="Top">
+                    <Items>
+                        <f:Button ID="btnAdd" runat="server" Text="新增管理员" Icon="Add" EnablePostBack="false">
+                        </f:Button>
+                    </Items>
+                </f:Toolbar>
+            </Toolbars>
             <Items>
                 <f:Grid ID="GCGrid" runat="server" EnableTextSelection="true" ForceFit="true" OnRowCommand="GCGrid_RowCommand" OnPageIndexChange="GCGrid_PageIndexChange" PageSize="15" DataKeyNames="u_id" AllowPaging="true" EnableColumnLines="true" ShowHeader="false" ShowBorder="true">
                     <Columns>

@@ -80,7 +80,7 @@
                     </Rows>
                 </f:Form>
 
-                <f:Form ID="Form3" ShowBorder="true" ShowHeader="true" Title="停车信息" BodyPadding="5 5 0 5" runat="server" CssStyle="border-bottom:none;" EnableCollapse="true">
+            <%--    <f:Form ID="Form3" ShowBorder="true" ShowHeader="true" Title="停车信息" BodyPadding="5 5 0 5" runat="server" CssStyle="border-bottom:none;" EnableCollapse="true">
                     <Toolbars>
                         <f:Toolbar ID="Toolbar2" runat="server">
                             <Items>
@@ -101,13 +101,13 @@
                         <f:FormRow>
                             <Items>
                                 <f:TextBox ID="txTc" runat="server" Label="车牌号" Width="70px"></f:TextBox>
-                                <%--<f:TextBox ID="txidcard" runat="server" Label="身份证" Width="70px"></f:TextBox>--%>
+                                <f:TextBox ID="txidcard" runat="server" Label="身份证" Width="70px"></f:TextBox>
                             </Items>
                         </f:FormRow>
                     </Rows>
-                </f:Form>
+                </f:Form>--%>
 
-                <%--<f:Form ID="Form4" ShowBorder="true" ShowHeader="true" Title="反馈信息" BodyPadding="5 5 0 5" runat="server" CssStyle="border-bottom:none;" EnableCollapse="true">
+                <f:Form ID="Form4" ShowBorder="true" ShowHeader="true" Title="反馈信息" BodyPadding="5 5 0 5" runat="server" CssStyle="border-bottom:none;" EnableCollapse="true">
                     <Toolbars>
                         <f:Toolbar ID="Toolbar3" runat="server">
                             <Items>
@@ -131,7 +131,7 @@
                             </Items>
                         </f:FormRow>
                     </Rows>
-                </f:Form>--%>
+                </f:Form>
             </Items>
         </f:Panel>
     </form>

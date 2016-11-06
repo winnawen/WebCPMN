@@ -57,17 +57,36 @@ public partial class admin_InfoPut : cAdmin
         }
     }
 
-    protected void btnTc_Click(object sender, EventArgs e)
+    //protected void btnTc_Click(object sender, EventArgs e)
+    //{
+    //    SqlParameter[] paras =
+    //    {
+    //        new SqlParameter("@own",Session["loginName"].ToString()),
+    //        new SqlParameter("@phone",txphone.Text.ToString()),
+    //        new SqlParameter("@cp",txTc.Text.ToString()),
+    //        //new SqlParameter("@idcard",txidcard.Text.ToString()),
+    //        new SqlParameter("@time",Tctime.Text.ToString()),
+    //    };
+    //    if (SqlHelper.ExecuteNonQuery(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, "insert into web_tc values(@own,@phone,@cp,@time)", paras) > 0)
+    //    {
+    //        Alert.Show("发布成功", MessageBoxIcon.Success);
+    //    }
+    //    else
+    //    {
+    //        Alert.Show("发布失败", MessageBoxIcon.Error);
+    //    }
+    //}
+
+    protected void btnFk_Click(object sender, EventArgs e)
     {
         SqlParameter[] paras =
         {
             new SqlParameter("@own",Session["loginName"].ToString()),
-            new SqlParameter("@phone",txphone.Text.ToString()),
-            new SqlParameter("@cp",txTc.Text.ToString()),
-            //new SqlParameter("@idcard",txidcard.Text.ToString()),
-            new SqlParameter("@time",Tctime.Text.ToString()),
+            new SqlParameter("@time",FkTime.Text.ToString()),
+            new SqlParameter("@type",cpObject.SelectedValue),
+            new SqlParameter("@ct",txtContent.Text.ToString()),
         };
-        if (SqlHelper.ExecuteNonQuery(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, "insert into web_tc values(@own,@phone,@cp,@time)", paras) > 0)
+        if (SqlHelper.ExecuteNonQuery(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, "insert into web_cp values(@own,@time,@type,@ct)", paras) > 0)
         {
             Alert.Show("发布成功", MessageBoxIcon.Success);
         }
@@ -75,24 +94,5 @@ public partial class admin_InfoPut : cAdmin
         {
             Alert.Show("发布失败", MessageBoxIcon.Error);
         }
-    }
-
-    protected void btnFk_Click(object sender, EventArgs e)
-    {
-        //SqlParameter[] paras =
-        //{
-        //    new SqlParameter("@own",Session["loginName"].ToString()),
-        //    new SqlParameter("@time",DateTime.Now.ToString("d")),
-        //    new SqlParameter("@type",cpObject.SelectedValue),
-        //    new SqlParameter("@ct",txtContent.ToString()),
-        //};
-        //if (SqlHelper.ExecuteNonQuery(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, "insert into web_cp values(@cp_own.@cp_time,@cp_type,cp_content)", paras) > 0)
-        //{
-        Alert.Show("发布成功", MessageBoxIcon.Success);
-        //}
-        //else
-        //{
-        //    Alert.Show("发布失败", MessageBoxIcon.Error);
-        //}
     }
 }

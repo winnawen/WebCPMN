@@ -1,0 +1,72 @@
+
+异常时间：2016-11-06 13:23:28,375 [77] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:h:\worktemp\WebCPMN\admin\oweEdit.aspx.cs(25): error CS0103: The name 'otime' does not exist in the current context<br>【异常类型】：HttpCompileException <br>【异常信息】：<strong style="color:red">h:\worktemp\WebCPMN\admin\oweEdit.aspx.cs(25): error CS0103: The name 'otime' does not exist in the current context </strong><br>【堆栈调用】：<br>   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.Compilation.BuildManager<br>【出错的方法名】：CompileWebFile<br/><br/> 
+ 
+
+异常时间：2016-11-06 13:25:28,281 [66] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:h:\worktemp\WebCPMN\admin\oweEdit.aspx.cs(25): error CS0103: The name 'otime' does not exist in the current context<br>【异常类型】：HttpCompileException <br>【异常信息】：<strong style="color:red">h:\worktemp\WebCPMN\admin\oweEdit.aspx.cs(25): error CS0103: The name 'otime' does not exist in the current context </strong><br>【堆栈调用】：<br>   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.Compilation.BuildManager<br>【出错的方法名】：CompileWebFile<br/><br/> 
+ 
+
+异常时间：2016-11-06 13:30:05,967 [66] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_opabfqu1.0.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-06 13:40:44,394 [73] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/InfoPut.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_infoput_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_z2zd00bj.6.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-06 13:42:11,549 [72] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/InfoPut.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_infoput_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_bfvwsgf1.10.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-06 13:43:10,226 [63] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/InfoPut.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_infoput_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_qgwikahe.16.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-06 14:16:48,821 [56] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/QueryInfo.aspx
+异常信息:h:\worktemp\WebCPMN\admin\QueryInfo.aspx.cs(102): error CS0103: The name 'BindGrid2' does not exist in the current context<br>【异常类型】：HttpCompileException <br>【异常信息】：<strong style="color:red">h:\worktemp\WebCPMN\admin\QueryInfo.aspx.cs(102): error CS0103: The name 'BindGrid2' does not exist in the current context </strong><br>【堆栈调用】：<br>   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)<br>   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)<br>   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)<br>   at System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)<br>   at System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)<br>   at System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.Compilation.BuildManager<br>【出错的方法名】：CompileWebFile<br/><br/> 
+ 
+
+异常时间：2016-11-06 14:40:15,320 [11] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/index.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_index_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_5abfaf4c.8.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 

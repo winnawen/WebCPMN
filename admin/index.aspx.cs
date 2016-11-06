@@ -20,7 +20,7 @@ public partial class index : cAdmin
     private void BindInfo()
     {
 
-        SqlDataReader sdr = SqlHelper.ExecuteReader(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, "select u_name,u_pwd,u_mail,u_phone,u_address,u_type,lastip,lasttime,thisip,thistime from web_usr where u_name='" + Session["loginName"].ToString() + "'");
+        SqlDataReader sdr = SqlHelper.ExecuteReader(SqlHelper.GetConnSting(DB_JOB), CommandType.Text, "select u_truename,u_pwd,u_mail,u_phone,u_address,u_type,lastip,lasttime,thisip,thistime from web_usr where u_name='" + Session["loginName"].ToString() + "'");
         if (sdr.HasRows)
         {
             if (sdr.Read())
@@ -28,6 +28,7 @@ public partial class index : cAdmin
                 lbLoginName.Text = Session["loginName"].ToString();
                 lbType.Text = sdr["u_type"].ToString() == "1" ? "物业管理员" : "业主";
                 lbLastIP.Text = sdr["lastIP"].ToString();
+                lbTrueName.Text = sdr["u_truename"].ToString();
                 lbLastTime.Text = sdr["lastTime"].ToString();
                 lbThisIP.Text = sdr["thisIP"].ToString();
                 lbThisTime.Text = sdr["thisTime"].ToString();

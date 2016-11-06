@@ -64,43 +64,43 @@ public partial class admin_QueryInfo : cAdmin
 
     #region
 
-    private void BindGrid2(int pageIndex)
-    {
-        CommonHelper com = new CommonHelper();
-        DataTable dt = new DataTable();
-        StringBuilder sb = new StringBuilder();
-        SqlParameter[] paras =
-        {
-            new SqlParameter("@stime",stime2.Text.ToString()),
-            new SqlParameter("@etime",etime2.Text.ToString()),
-        };
-        sb.Append("park_id is not null and park_time>=@stime and park_time<=@etime");
-        try
-        {
-            Grid1.RecordCount = com.getDataCount("web_park ", sb.ToString(), DB_JOB,paras);
-            dt = com.getDataList(pageIndex, Grid1.PageSize, "web_park", "*", "park_id", sb.ToString(), "order by park_id desc", DB_JOB,paras);
-        }
-        catch (Exception ex)
-        {
-            Alert.Show(ex.Message);
-            return;
-        }
-        if (pageIndex == 0)
-        {
-            Grid1.PageIndex = 0;
-        }
-        Grid1.DataSource = dt;
-        Grid1.DataBind();
-    }
-    protected void Grid1_PageIndexChange(object sender, GridPageEventArgs e)
-    {
-        Grid1.PageIndex = e.NewPageIndex;
-    }
+    //private void BindGrid2(int pageIndex)
+    //{
+    //    CommonHelper com = new CommonHelper();
+    //    DataTable dt = new DataTable();
+    //    StringBuilder sb = new StringBuilder();
+    //    SqlParameter[] paras =
+    //    {
+    //        new SqlParameter("@stime",stime2.Text.ToString()),
+    //        new SqlParameter("@etime",etime2.Text.ToString()),
+    //    };
+    //    sb.Append("park_id is not null and park_time>=@stime and park_time<=@etime");
+    //    try
+    //    {
+    //        Grid1.RecordCount = com.getDataCount("web_park ", sb.ToString(), DB_JOB,paras);
+    //        dt = com.getDataList(pageIndex, Grid1.PageSize, "web_park", "*", "park_id", sb.ToString(), "order by park_id desc", DB_JOB,paras);
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        Alert.Show(ex.Message);
+    //        return;
+    //    }
+    //    if (pageIndex == 0)
+    //    {
+    //        Grid1.PageIndex = 0;
+    //    }
+    //    Grid1.DataSource = dt;
+    //    Grid1.DataBind();
+    //}
+    //protected void Grid1_PageIndexChange(object sender, GridPageEventArgs e)
+    //{
+    //    Grid1.PageIndex = e.NewPageIndex;
+    //}
 
-    protected void Button6_Click(object sender, EventArgs e)
-    {
-        BindGrid2(0);
-    }
+    //protected void Button6_Click(object sender, EventArgs e)
+    //{
+    //    BindGrid2(0);
+    //}
     #endregion
 
 

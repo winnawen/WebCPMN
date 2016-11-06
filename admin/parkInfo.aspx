@@ -26,7 +26,7 @@
                         <f:BoundField DataField="park_owner" HeaderText="车位买家" TextAlign="Center" Width="210px"></f:BoundField>
                         <f:BoundField DataField="park_phone" HeaderText="手机" TextAlign="Center" Width="246px"></f:BoundField>
                         <f:BoundField DataField="park_CPH" HeaderText="车牌号" TextAlign="Center" Width="210px"></f:BoundField>
-                        <f:BoundField DataField="park_idcard" HeaderText="身份证" TextAlign="Center" Width="481px"></f:BoundField>
+                        <%--<f:BoundField DataField="park_idcard" HeaderText="身份证" TextAlign="Center" Width="481px"></f:BoundField>--%>
                         <f:BoundField DataField="park_CWID" HeaderText="车位ID" TextAlign="Center" width="210px"></f:BoundField>
                         <f:BoundField DataField="park_time" HeaderText="时间" TextAlign="Center" Width ="240px"></f:BoundField>
                         <f:LinkButtonField Icon="Cancel" HeaderText="删除" Width="140px" TextAlign="Center" ColumnID="Delete" CommandName="Delete" ToolTip="删除" ConfirmText="确定要删除停车信息吗？？" />

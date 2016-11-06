@@ -45,7 +45,7 @@
                             <f:ListItem Text="三区" Value="三区"  />
                             <f:ListItem Text="四区" Value="四区"  />
                             <f:ListItem Text="五区" Value="五区"  />
-                        </f:DropDownList>
+                        </f:DropDownList> 
                     </Items>
                 </f:FormRow>
                 <f:FormRow>

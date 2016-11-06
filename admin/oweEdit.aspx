@@ -15,9 +15,18 @@
                 <f:FormRow ID="FRType" runat="server">
                     <Items>
                         <f:TextBox ID="txOwner" runat="server" Label="业主名" Required="true"></f:TextBox>
-                        <f:DatePicker ID="otime" Width="150px" CssClass="marginr" Required="true" Readonly="false"
-                            DateFormatString="yyyy-MM-dd" EmptyText="日期"
-                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false">
+                        
+                    </Items>
+                </f:FormRow>
+                <f:FormRow>
+                    <Items>
+                        <f:DatePicker ID="stime" Width="150px" CssClass="marginr" Required="true" Readonly="false"
+                            DateFormatString="yyyy-MM-dd" EmptyText="计费开始日期"
+                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false" >
+                        </f:DatePicker>
+                        <f:DatePicker ID="etime" Width="150px" CssClass="marginr" Required="true" Readonly="false"
+                            DateFormatString="yyyy-MM-dd" EmptyText="计费结束日期"
+                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false" >
                         </f:DatePicker>
                     </Items>
                 </f:FormRow>
