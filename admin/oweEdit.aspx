@@ -15,29 +15,35 @@
                 <f:FormRow ID="FRType" runat="server">
                     <Items>
                         <f:TextBox ID="txOwner" runat="server" Label="业主名" Required="true"></f:TextBox>
-                        
+                        <f:Button ID="btnCheck" runat="server" Text="检查" OnClick="btnCheck_Click"></f:Button>
                     </Items>
                 </f:FormRow>
                 <f:FormRow>
                     <Items>
                         <f:DatePicker ID="stime" Width="150px" CssClass="marginr" Required="true" Readonly="false"
                             DateFormatString="yyyy-MM-dd" EmptyText="计费开始日期"
-                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false" >
+                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false">
                         </f:DatePicker>
                         <f:DatePicker ID="etime" Width="150px" CssClass="marginr" Required="true" Readonly="false"
                             DateFormatString="yyyy-MM-dd" EmptyText="计费结束日期"
-                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false" >
+                            ShowLabel="false" Label="时间" runat="server" EnableEdit="false">
                         </f:DatePicker>
                     </Items>
                 </f:FormRow>
                 <f:FormRow ID="FromRow1" runat="server">
                     <Items>
-                        <f:TextBox ID="txphone" runat="server" Label="手机" Required="true"></f:TextBox>
-                        <f:TextBox ID="txPrice" runat="server" Label="费用" Required="true"></f:TextBox>
+                        <f:TextBox ID="txlPrice" runat="server" Label="电费" Required="true"></f:TextBox>
+                        <f:TextBox ID="txwPrice" runat="server" Label="水费" Required="true"></f:TextBox>
                     </Items>
                 </f:FormRow>
-                 <f:FormRow ID="FormRow1" runat="server">
+                <f:FormRow>
                     <Items>
+                        <f:CheckBox ID="cbisowe" runat="server" Label="是否缴清（缴清请打勾）"></f:CheckBox>
+                    </Items>
+                </f:FormRow>
+                <f:FormRow ID="FormRow1" runat="server">
+                    <Items>
+                        <f:TextBox ID="txphone" runat="server" Label="手机" Required="true"></f:TextBox>
                         <f:TextBox ID="txaddress" runat="server" Label="住址" Required="true"></f:TextBox>
                     </Items>
                 </f:FormRow>

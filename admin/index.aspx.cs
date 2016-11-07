@@ -171,7 +171,7 @@ public partial class index : cAdmin
 
             row = table.NewRow();
             row[0] = "04";
-            row[1] = "欠费信息管理";
+            row[1] = "费用信息管理";
             row[2] = DBNull.Value;
             row[3] = "oweInfo.aspx";
             row[4] = "Application";

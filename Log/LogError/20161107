@@ -1,0 +1,108 @@
+
+异常时间：2016-11-07 12:04:50,998 [46] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_pcynzmkt.12.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 12:05:25,067 [42] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_d2bari5z.16.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:44:34,573 [5] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/html/login.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.html_login_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_oud2n300.4.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:44:43,107 [11] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/html/login.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.html_login_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_oud2n300.4.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:51:27,184 [5] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_hnxvclr3.24.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:53:22,251 [5] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_uzpagrzl.10.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:53:36,564 [20] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_uzpagrzl.10.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:54:41,905 [60] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_xyav4rpy.20.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:56:03,487 [65] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_l1b0rs0l.12.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:56:07,021 [65] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_l1b0rs0l.12.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:57:00,160 [61] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_sbpfw5eb.28.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 
+
+异常时间：2016-11-07 14:57:04,469 [7] 
+异常级别：ERROR 
+异 常 类：logError [(null)] 
+【附加信息】 : 
+客户机IP:::1
+错误地址:http://localhost:60481/admin/oweEdit.aspx
+异常信息:Exception of type 'System.Web.HttpUnhandledException' was thrown.<br>【异常类型】：HttpUnhandledException <br>【异常信息】：<strong style="color:red">Exception of type 'System.Web.HttpUnhandledException' was thrown. </strong><br>【堆栈调用】：<br>   at System.Web.UI.Page.HandleError(Exception e)<br>   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br>   at System.Web.UI.Page.ProcessRequest()<br>   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)<br>   at System.Web.UI.Page.ProcessRequest(HttpContext context)<br>   at ASP.admin_oweedit_aspx.ProcessRequest(HttpContext context) in c:\Users\luo75\AppData\Local\Temp\Temporary ASP.NET Files\vs\ee2fa495\192ca4c5\App_Web_sbpfw5eb.28.cs:line 0<br>   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()<br>   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)<br>【出错的类名】：System.Web.UI.Page<br>【出错的方法名】：HandleError<br/><br/> 
+ 

@@ -14,7 +14,7 @@
             <Toolbars>
                 <f:Toolbar ID="topToolbar" runat="server" Position="Top">
                     <Items>
-                        <f:Button ID="btnAdd" runat="server" Text="新增欠费信息" Icon="Add" EnablePostBack="false">
+                        <f:Button ID="btnAdd" runat="server" Text="新增费用信息" Icon="Add" EnablePostBack="false">
                         </f:Button>
                     </Items>
                 </f:Toolbar>
@@ -22,13 +22,15 @@
             <Items>
                 <f:Grid ID="GCGrid" runat="server" EnableTextSelection="true" ForceFit="true" PageSize="15" DataKeyNames="owe_id"  AllowPaging="true" EnableColumnLines="true" ShowHeader="false" ShowBorder="false" OnRowCommand="GCGrid_RowCommand" OnPageIndexChange="GCGrid_PageIndexChange">
                     <Columns>
-                        <f:RowNumberField TextAlign="Center" HeaderText="序号" Width="87px"></f:RowNumberField>
-                        <f:BoundField DataField="owe_owner" HeaderText="业主名" TextAlign="Center" Width="223px"></f:BoundField>
+                        <f:RowNumberField TextAlign="Center" HeaderText="序号" Width="50px"></f:RowNumberField>
+                        <f:BoundField DataField="owe_owner" HeaderText="业主名" TextAlign="Center" Width="150px"></f:BoundField>
                         <f:BoundField DataField="owe_stime" HeaderText="开始时间" TextAlign="Center" Width="237px"></f:BoundField>
                         <f:BoundField DataField="owe_etime" HeaderText="结束时间" TextAlign="Center" Width="237px"></f:BoundField>
                         <f:BoundField DataField="owe_phone" HeaderText="手机" TextAlign="Center" Width="237px"></f:BoundField>
-                        <f:BoundField DataField="owe_address" HeaderText="住址" TextAlign="Center" Width="716px"></f:BoundField>
-                        <f:BoundField DataField="owe_price" HeaderText="费用（水费、电费）" TextAlign="Center" Width="438px"></f:BoundField>
+                        <f:BoundField DataField="owe_address" HeaderText="住址" TextAlign="Center" Width="650px"></f:BoundField>
+                        <f:BoundField DataField="owe_wprice" HeaderText="水费/元" TextAlign="Center" Width="200px"></f:BoundField>
+                        <f:BoundField DataField="owe_lprice" HeaderText="电费/元" TextAlign="Center" Width="200px"></f:BoundField>
+                        <f:BoundField DataField="owe_isowe" HeaderText="是否缴清" TextAlign="Center" Width="150px"></f:BoundField>
                         <f:LinkButtonField Icon="Cancel" HeaderText="删除" Width="100px" TextAlign="Center" ColumnID="Delete" CommandName="Delete" ToolTip="删除" ConfirmText="确定要删除欠费信息吗？？" />
                     </Columns>
                     <PageItems>

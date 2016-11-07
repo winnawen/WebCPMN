@@ -29,7 +29,7 @@ public partial class admin_QueryInfo : cAdmin
             new SqlParameter("@etime",etime1.Text.ToString()),
             new SqlParameter("@uid",Session["userId"].ToString()),
         };
-        sb.Append("owe_id is not null and owe_time>=@stime and owe_time<=@etime and u_id==@uid");
+        sb.Append("owe_id is not null and owe_stime>=@stime and owe_etime<=@etime and u_id=@uid");
         try
         {
             GCGrid.RecordCount = com.getDataCount("web_owe ", sb.ToString(), DB_JOB,paras);

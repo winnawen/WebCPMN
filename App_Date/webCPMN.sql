@@ -1,81 +1,11 @@
 USE [master]
 GO
-/****** Object:  Database [websystem]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Database [websystem]    Script Date: 2016/11/7 15:16:41 ******/
 CREATE DATABASE [websystem]
- CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'websystem', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\DATA\websystem.mdf' , SIZE = 4160KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
- LOG ON 
-( NAME = N'websystem_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL11.MSSQLSERVER\MSSQL\DATA\websystem_log.ldf' , SIZE = 1040KB , MAXSIZE = 2048GB , FILEGROWTH = 10%)
-GO
-ALTER DATABASE [websystem] SET COMPATIBILITY_LEVEL = 110
-GO
-IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
-begin
-EXEC [websystem].[dbo].[sp_fulltext_database] @action = 'enable'
-end
-GO
-ALTER DATABASE [websystem] SET ANSI_NULL_DEFAULT OFF 
-GO
-ALTER DATABASE [websystem] SET ANSI_NULLS OFF 
-GO
-ALTER DATABASE [websystem] SET ANSI_PADDING OFF 
-GO
-ALTER DATABASE [websystem] SET ANSI_WARNINGS OFF 
-GO
-ALTER DATABASE [websystem] SET ARITHABORT OFF 
-GO
-ALTER DATABASE [websystem] SET AUTO_CLOSE OFF 
-GO
-ALTER DATABASE [websystem] SET AUTO_CREATE_STATISTICS ON 
-GO
-ALTER DATABASE [websystem] SET AUTO_SHRINK OFF 
-GO
-ALTER DATABASE [websystem] SET AUTO_UPDATE_STATISTICS ON 
-GO
-ALTER DATABASE [websystem] SET CURSOR_CLOSE_ON_COMMIT OFF 
-GO
-ALTER DATABASE [websystem] SET CURSOR_DEFAULT  GLOBAL 
-GO
-ALTER DATABASE [websystem] SET CONCAT_NULL_YIELDS_NULL OFF 
-GO
-ALTER DATABASE [websystem] SET NUMERIC_ROUNDABORT OFF 
-GO
-ALTER DATABASE [websystem] SET QUOTED_IDENTIFIER OFF 
-GO
-ALTER DATABASE [websystem] SET RECURSIVE_TRIGGERS OFF 
-GO
-ALTER DATABASE [websystem] SET  ENABLE_BROKER 
-GO
-ALTER DATABASE [websystem] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
-GO
-ALTER DATABASE [websystem] SET DATE_CORRELATION_OPTIMIZATION OFF 
-GO
-ALTER DATABASE [websystem] SET TRUSTWORTHY OFF 
-GO
-ALTER DATABASE [websystem] SET ALLOW_SNAPSHOT_ISOLATION OFF 
-GO
-ALTER DATABASE [websystem] SET PARAMETERIZATION SIMPLE 
-GO
-ALTER DATABASE [websystem] SET READ_COMMITTED_SNAPSHOT OFF 
-GO
-ALTER DATABASE [websystem] SET HONOR_BROKER_PRIORITY OFF 
-GO
-ALTER DATABASE [websystem] SET RECOVERY FULL 
-GO
-ALTER DATABASE [websystem] SET  MULTI_USER 
-GO
-ALTER DATABASE [websystem] SET PAGE_VERIFY CHECKSUM  
-GO
-ALTER DATABASE [websystem] SET DB_CHAINING OFF 
-GO
-ALTER DATABASE [websystem] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
-GO
-ALTER DATABASE [websystem] SET TARGET_RECOVERY_TIME = 0 SECONDS 
 GO
 USE [websystem]
 GO
-/****** Object:  Table [dbo].[web_cp]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_cp]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -93,7 +23,7 @@ CREATE TABLE [dbo].[web_cp](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[web_Duty]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_Duty]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -118,7 +48,7 @@ PRIMARY KEY CLUSTERED
 GO
 SET ANSI_PADDING OFF
 GO
-/****** Object:  Table [dbo].[web_fix]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_fix]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -138,7 +68,7 @@ CREATE TABLE [dbo].[web_fix](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[web_news]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_news]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -157,7 +87,7 @@ CREATE TABLE [dbo].[web_news](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[web_owe]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_owe]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -167,11 +97,14 @@ GO
 CREATE TABLE [dbo].[web_owe](
 	[owe_id] [int] IDENTITY(1,1) NOT NULL,
 	[owe_owner] [nvarchar](16) NOT NULL,
-	[owe_time] [date] NOT NULL,
+	[owe_stime] [date] NOT NULL,
+	[owe_etime] [date] NOT NULL,
 	[owe_phone] [char](11) NOT NULL,
 	[owe_address] [nvarchar](256) NOT NULL,
-	[owe_price] [float] NOT NULL,
-	[u_id] [int] NULL,
+	[owe_wprice] [float] NOT NULL,
+	[owe_lprice] [float] NOT NULL,
+	[owe_isowe] [char](2) NOT NULL,
+	[u_id] [int] NOT NULL,
  CONSTRAINT [PK__web_owe__44CEAD341E16E7C1] PRIMARY KEY CLUSTERED 
 (
 	[owe_id] ASC
@@ -181,7 +114,7 @@ CREATE TABLE [dbo].[web_owe](
 GO
 SET ANSI_PADDING OFF
 GO
-/****** Object:  Table [dbo].[web_owner]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_owner]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -205,7 +138,7 @@ CREATE TABLE [dbo].[web_owner](
 GO
 SET ANSI_PADDING OFF
 GO
-/****** Object:  Table [dbo].[web_park]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_park]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -217,7 +150,6 @@ CREATE TABLE [dbo].[web_park](
 	[park_owner] [nvarchar](16) NOT NULL,
 	[park_phone] [char](11) NOT NULL,
 	[park_CPH] [char](16) NOT NULL,
-	[park_idcard] [char](18) NOT NULL,
 	[park_CWID] [char](11) NOT NULL,
 	[park_time] [date] NOT NULL,
  CONSTRAINT [PK__web_park__E9C674D4F46362A1] PRIMARY KEY CLUSTERED 
@@ -229,7 +161,7 @@ CREATE TABLE [dbo].[web_park](
 GO
 SET ANSI_PADDING OFF
 GO
-/****** Object:  Table [dbo].[web_staff]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_staff]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -255,7 +187,7 @@ PRIMARY KEY CLUSTERED
 GO
 SET ANSI_PADDING OFF
 GO
-/****** Object:  Table [dbo].[web_tc]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_tc]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -274,7 +206,7 @@ CREATE TABLE [dbo].[web_tc](
 ) ON [PRIMARY]
 
 GO
-/****** Object:  Table [dbo].[web_usr]    Script Date: 2016/11/6 13:09:21 ******/
+/****** Object:  Table [dbo].[web_usr]    Script Date: 2016/11/7 15:16:41 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
